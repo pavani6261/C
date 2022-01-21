@@ -20,11 +20,14 @@ void main()
     scanf("%s",&st2);
     for(i=0;i<n;i++)
     {
-    if(strcmp(strs[i],st2)==0)
+        if(strcmp(strs[i],st2)==0)
         {
-           printf("string 2 is in string 1");
+           flag=1;
         }
     }
+    if(flag==1)
+        printf("string 2 is in string 1");
+    else
         printf("string 2 is not in string 1");
 
 }
