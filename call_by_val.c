@@ -1,4 +1,4 @@
-/*
+
 #include<stdio.h>
 void main()
 {
@@ -17,4 +17,4 @@ int call_val(int x, int y)
     printf("after swapping x=%d, y=%d\n",x,y);
     return 0;
 }
-*/
+
